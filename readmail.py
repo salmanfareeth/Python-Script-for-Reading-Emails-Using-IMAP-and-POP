@@ -6,8 +6,8 @@ import datetime
 import subprocess
 mailServer = 'pop.gmail.com'
 imap_host = 'imap.gmail.com'
-user_ = 'demomail9192101@gmail.com'
-pass_ = 'demomail@123'
+user_ = 'username' 
+pass_ = 'password'
 
 myEmailConnection = poplib.POP3_SSL(mailServer)
 imap = imaplib.IMAP4_SSL(imap_host)
