@@ -12,7 +12,7 @@ Clone the Repository
 
 bash:
   
-    git clone https://github.com/yourusername/read-mail-using-python.git
+    git clone https://github.com/salmanfareeth/Python-Script-for-Reading-Emails-Using-IMAP-and-POP.git
 
 cd read-mail-using-python
 
