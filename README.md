@@ -35,7 +35,7 @@ To run the script, use the following command:
 
 bash
 
-    python read_mail.py
+    python readmail.py
     
 Make sure to replace read_mail.py with the actual name of your script file if it is different.
 
