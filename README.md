@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 This repository contains a Python script to read emails using IMAP and POP protocols. The script connects to a Gmail server, checks for unread messages, and processes them.
 
