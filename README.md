@@ -49,7 +49,7 @@ To run the script, use the following command:
 
 The script connects to the email servers using the `POP` and `IMAP` protocols.
 
-```sh
+```py
     myEmailConnection = poplib.POP3_SSL(mailServer)
     imap = imaplib.IMAP4_SSL(imap_host)
     myEmailConnection.user(user_)
@@ -61,7 +61,7 @@ The script connects to the email servers using the `POP` and `IMAP` protocols.
    
 The script checks the status of the inbox for any unread messages.
 
-```sh
+```py
     folderStatus, UnseenInfo = imap.status('INBOX', "(UNSEEN)")
     status, data = imap.select('INBOX')
     Process Mailbox
@@ -69,7 +69,7 @@ The script checks the status of the inbox for any unread messages.
 
 3. **The script processes the mailbox, fetches the unread messages, and prints their subject.**
 
-```sh
+```py
     def process_mailbox(M):
       msg = []
       global Old
