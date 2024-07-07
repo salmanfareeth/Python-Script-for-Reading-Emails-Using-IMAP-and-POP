@@ -39,7 +39,7 @@ Open the script and update the `mailServer`, `imap_host`, `user_`, and `pass_` v
 
 To run the script, use the following command:
 
-```py
+```bash
     python readmail.py
 ```
     
