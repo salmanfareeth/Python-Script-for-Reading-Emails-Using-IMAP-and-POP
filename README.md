@@ -4,7 +4,7 @@ This repository contains a Python script to read emails using IMAP and POP proto
 
 ## Prerequisites
 
-Before running the script, ensure you have Python installed on your system. This script is compatible with Python 2.x.
+Before running the script, ensure you have Python installed on your system. This script is compatible with `Python 2.x`
 
 ## Getting Started
 
@@ -22,11 +22,11 @@ Before running the script, ensure you have Python installed on your system. This
 
 ## Install Required Libraries
 
-Ensure you have the necessary libraries. These are included in the standard library for Python 2.x.
+Ensure you have the necessary libraries. These are included in the standard library for `Python 2.x`
 
 ## Update Credentials
 
-Open the script and update the mailServer, imap_host, user_, and pass_ variables with your own details.
+Open the script and update the `mailServer`, `imap_host`, `user_`, and `pass_` variables with your own details.
 
 ```sh
     mailServer = 'pop.gmail.com'
@@ -47,7 +47,7 @@ To run the script, use the following command:
 
 1. **Connect to Email Servers**
 
-The script connects to the email servers using the POP and IMAP protocols.
+The script connects to the email servers using the `POP` and `IMAP` protocols.
 
 ```sh
     myEmailConnection = poplib.POP3_SSL(mailServer)
@@ -98,7 +98,7 @@ The script checks the status of the inbox for any unread messages.
 
 ## Educational Purpose Only
 
-This project is created by salmanfareeth and is intended solely for educational purposes. Use it responsibly and modify it according to your needs.
+This project is created by `salmanfareeth` and is intended solely for educational purposes. Use it responsibly and modify it according to your needs.
 
 ## Privacy and Security
 
